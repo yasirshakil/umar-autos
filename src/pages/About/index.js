@@ -3,7 +3,7 @@ import style from './style'
 import { Link } from "react-router-dom"
 import Img from './images/bike3.png'
 import Img1 from './images/yasirs.jpg'
-import Navbar from '../../component/Navbar'
+import Header from '../../component/Header'
 import Footer from '../../component/Footer'
 
 
@@ -16,7 +16,7 @@ const  About = ()=>{
   
   return(
         <div>
-            <Navbar/>
+            <Header/>
             <div style={style.MainAboutBox} className="container-fluid">
                 <div className="container">
                     <div style={style.RowBox1} className="row">

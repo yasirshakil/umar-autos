@@ -5,7 +5,7 @@ import Img2 from './images/s2.png'
 import Img3  from './images/bike3.png'
 import Img4 from './images/bikeb.jpg'
 import Img7 from './images/slider1.jpg'
-import Navbar from '../../component/Navbar'
+import Header from '../../component/Header'
 import Footer from '../../component/Footer'
 import Chosebike from '../../component/6-bike-card';
 import Data, {SaleBike,AccessoriesBox,BlogPost} from '../../Arry'
@@ -17,7 +17,7 @@ const  Home =() => {
 
   return(
         <div>
-            <Navbar/>
+            <Header/>
             <div className="container-fluid">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">

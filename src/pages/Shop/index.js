@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style';
 import Img3 from '../Home/images/bike3.png'
-import Navbar from '../../component/Navbar'
+import Header from '../../component/Header'
 import Footer from '../../component/Footer'
 import Data, {ShopUsedBike,ShopNewBike,ShopAccessories} from '../../Arry'
 import Chosebike from '../../component/6-bike-card'
@@ -12,7 +12,7 @@ import AccessoriesBoxs from '../../component/AccessoriesBox'
 const Shop = ()=> {
     return (
         <div>
-           <Navbar/>
+           <Header/>
             <section className="banner">
                 <div className="banner-bg">
                     <h1 style={style.bannertxt} className="text-center"> Shop </h1>

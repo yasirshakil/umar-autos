@@ -2,7 +2,7 @@ import React from 'react';
 import style from './style'
 import { Link } from "react-router-dom"
 import Map from './map'
-import Navbar from '../../component/Navbar'
+import Header from '../../component/Header'
 import Footer from '../../component/Footer'
 
 
@@ -17,7 +17,7 @@ function Contact(){
   
   return(
         <div>
-            <Navbar/>
+            <Header/>
             <div style={style.MainAboutBox} className="container-fluid">
                 <div className="container">
                     <div style={style.RowBox1} className="row">
