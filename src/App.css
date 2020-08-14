@@ -1,0 +1,164 @@
+
+.nav-btn{
+    color: white !important;
+    border: solid 1px orange !important;
+    margin-left: 18%;
+}
+
+.Nav-btn:hover{
+    background-color: orange !important;
+    transition: 0.3s;
+}
+
+.heading-Box{
+    background-color: #6d3c3c0a;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+}
+
+.heading-Box:hover{
+    background-color: #6d3c3c0a;
+    transition: 5s;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.Detail-box{
+    height: auto;
+    background-color: #6d3c3c0a;
+}
+
+.Detail-box:hover{
+    height: auto;
+    background-color: #6d3c3c0a;
+    transition: 10s;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+.animated-bike{
+    height: auto;
+    width: 90%;
+}
+
+.animated-bike:hover{
+    height: auto;
+    width: 90%;
+    transform: rotate(50deg);
+    transition: 1s;
+}
+
+.sale-your-bike{
+    margin-top: 15%;
+}
+
+.sale-box{
+    position: relative;
+}
+
+.img-color{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    top: 0px;
+}
+
+.sale-bike-bg:hover{
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    transition: 5s;
+}
+
+.my-footer{
+    background-color: #001232;
+    height: auto;
+}
+
+.Stor-1:hover{
+    color: orange !important ;
+    cursor: default;
+    transition: 0.5s ease;
+}
+
+.Quick-Links:hover{
+    color: orange !important;
+    transition: 0.5s ease;
+}
+
+.Footer-end-tag{
+    color: orange;
+    cursor: pointer;
+}
+
+
+
+.btn-used:hover{
+
+    transition: 0.5s ease-in-out;
+    background-color: orange !important;
+}
+
+.btn-new:hover{
+    transition: 0.5s ease-in-out;
+    background-color: white !important;
+
+ }    
+/* HOME PAGE DONE */
+
+
+
+
+.ms-layer{
+    top: 95.4958px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 35.2754px;
+    right: 0px;
+}
+
+
+
+
+                                     
+/* About Page */
+
+
+/* About Done */
+
+
+
+
+
+
+
+
+
+
+
+/* Contact page */
+
+
+.Information-Contect{
+    border-bottom: 2px orange solid;
+}
+
+/* Contact Done */
+
+
+
+
+
+
+                          
+
+
+
+
+
+
+
+
+
+
+
